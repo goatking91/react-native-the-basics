@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import BlinkApp from './state/BlinkApp';
 
-class HelloWorldApp extends Component {
+class App extends Component {
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Hello, world!</Text>
-      </View>
+      <>
+        <BlinkApp />
+      </>
     );
   }
 }
 
-export default HelloWorldApp;
+export default App;
