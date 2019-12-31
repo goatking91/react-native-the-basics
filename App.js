@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import LotsOfGreetings from './props/LotsOfGreetings';
+import BlinkApp from './state/BlinkApp';
 
 class App extends Component {
   render() {
     return (
       <>
-        <LotsOfGreetings />
+        <BlinkApp />
       </>
     );
   }
