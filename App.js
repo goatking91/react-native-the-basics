@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import FlexDirectionBasics from './layoutwithflexbox/FlexDirectionBasics';
+import JustifyContentBasics from './src/layoutwithflexbox/JustifyContentBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <FlexDirectionBasics />
+        <JustifyContentBasics />
       </>
     );
   }
