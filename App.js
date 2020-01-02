@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import JustifyContentBasics from './src/layoutwithflexbox/JustifyContentBasics';
+import AlignItemsBasics from './src/layoutwithflexbox/AlignItemsBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <JustifyContentBasics />
+        <AlignItemsBasics />
       </>
     );
   }
