@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import FlexDimensionsBasics from './heightandwidth/FlexDimensionsBasics';
+import AlignItemsBasics from './src/layoutwithflexbox/AlignItemsBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <FlexDimensionsBasics />
+        <AlignItemsBasics />
       </>
     );
   }
