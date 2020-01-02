@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import FixedDimensionsBasics from './heightandwidth/FixedDimensionsBasics';
+import FlexDimensionsBasics from './heightandwidth/FlexDimensionsBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <FixedDimensionsBasics />
+        <FlexDimensionsBasics />
       </>
     );
   }
