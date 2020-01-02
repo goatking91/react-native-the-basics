@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AlignItemsBasics from './src/layoutwithflexbox/AlignItemsBasics';
+import PizzaTranslator from './src/handlingtextinput/PizzaTranslator';
 
 class App extends Component {
   render() {
     return (
       <>
-        <AlignItemsBasics />
+        <PizzaTranslator />
       </>
     );
   }
