@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import LotsOfStyles from './style/LotsOfStyles';
+import FixedDimensionsBasics from './heightandwidth/FixedDimensionsBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <LotsOfStyles />
+        <FixedDimensionsBasics />
       </>
     );
   }
