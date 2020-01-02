@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import LotsOfStyles from './style/LotsOfStyles';
+import FlexDimensionsBasics from './heightandwidth/FlexDimensionsBasics';
 
 class App extends Component {
   render() {
     return (
       <>
-        <LotsOfStyles />
+        <FlexDimensionsBasics />
       </>
     );
   }
